@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML_CSS_assignment</title>
+        
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <style>
+            .class_1,.class_2,.class_3,.class_4,.class_5,.class_6 {
+                border: 1px solid black; width: 20%; border-radius: 5px;background-color:lightyellow; margin-right: 10px; align-self: flex-start;
+            }
+            #div_2 {
+                border: 1px solid black; padding: 10px; width: 150px; margin-left: 15px;background-color:whitesmoke;
+            }
+
+            .flex,#heading {
+                display: flex;
+            }
+
+            body {
+            background-image: url('https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg?cs=srgb&dl=photography-of-mountains-under-cloudy-sky-1183099.jpg&fm=jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+
+                }
+
+            .fa-pencil-alt:hover {
+               color:gray;   
+            }
+
+            .search_bar:hover {
+                background-color:lightskyblue
+            }
+
+            .fa-pencil-alt {
+                color: blue;
+
+            }
+
+            
+            
+
+            
+
+           
+            
+            
+
+        </style>
+    </head>
+    <body>
+        <div id="heading" style="margin: 5px;border: 1px;background-color: rgb(255, 255, 240,0.6);padding: 5px;">
+
+            <div>
+                <i class="fa fa-home" style="font-size: 30px;color:black; border: 1px;"></i>
+
+                <button style="font-size: 20px; border:1px;" i class="fa fa-list-ul"> BOARD</i></button>
+
+                <input class="search_bar" type="search" name="search" style="width: 10%;height: 25px;border: 1px;">
+
+                <span style="font-style:italic;margin-left: 400px;font-size: 30px;font-weight: bold;color: lightgoldenrodyellow;">Tralala</span>
+
+                <i class="fas fa-plus" style="margin-left: 500px; font-size: 20px;border: 1px;"></i>
+
+                <i class="fas fa-user" style="font-size: 20px;margin-right: 10px;border: 1px;"></i>
+            </div>
+
+        </div>
+
+            <div id="sub_heading" style="border:1px; margin: 5px; background-color:rgb(255, 255, 240,0.3) ;padding: 5px; height: 30px;">
+
+                <div id="sub_heading_1" style="color:lightgoldenrodyellow;">
+                    Frontend Training <span style="margin-left: 1100px;" i class="fas fa-ellipsis-v"></span> > Show menu</span>
+                </div>
+            </div>
+            
+
+        <div class="flex">
+            
+
+            <div class="class_1" style="margin-left: 10px;">
+                <div id="div_1" style="font-weight: bold; font-size: 25px;margin: 10px; ">
+                    To Do  <i class="fas fa-ellipsis-h" style="margin-left: 70px;opacity:0.6 ;font-size: 50%" ></i>
+                </div>
+                    
+                <div id="div_2" >
+                    Learn HTML <i class="fas fa-pencil-alt" style="margin-left: 30px;background-color: whitesmoke; "></i>
+                </div><br />
+
+                <div id="div_2">
+                    Learn CSS<i class="fas fa-pencil-alt" style="margin-left: 40px;background-color: whitesmoke; "></i>
+                </div><br />
+
+                <div id="div_2">
+                    Learn JavaScript<i class="fas fa-pencil-alt" style="margin-left: 5px;background-color: whitesmoke; "></i>
+                </div><br />
+
+                <div  style="margin-left: 15px;">
+                    +Add another card
+                </div>
+            </div>
+
+            <div class="class_2">
+                <div id="div_1" style="font-weight: bold; font-size: 25px;margin: 10px;">
+                    Doing <span> <i class="fas fa-ellipsis-h" style="opacity:0.6;font-size: 50% ;margin-left: 70px;" ></i></span>
+                </div>
+
+                <div id="div_2">
+                    Prepare resume
+                </div><br />
+
+                <div style="background-color: whitesmoke;margin-left: 15px; height: 50px;border: 1px solid black;width: 150px;padding: 5px;">Enter a title for this card...
+                </div>
+
+                <div>
+                    <input type="submit" name="add card" value="Add card" style="background-color:limegreen; border-radius:5px;margin-left: 15px;height: 30px;">
+                <i class="glyphicon glyphicon-remove"></i>                   
+                </div>
+
+            </div>
+            
+            <div class="class_3" >
+                <div id="div_1"  style="font-weight: bold; font-size: 20px;margin: 10px;">
+                    Testing/Verifiying <i class="fas fa-ellipsis-h" style="opacity:0.6;font-size: 50% ;" ></i>
+                </div>
+
+                <div id="div_2">
+                    Twitter app forward
+                </div>
+
+                <div style="margin-left: 15px;">
+                    +Add another card
+                </div>
+
+            </div>
+
+            <div class="class_4" >
+                <div id="div_1"  style="font-weight: bold; font-size: 20px;margin: 10px;">
+                    Done <i class="fas fa-ellipsis-h" style="margin-left: 100px;opacity:0.6 ;font-size: 50%;" ></i>
+                </div>
+                
+                <div style="margin-left: 10px;">
+                    +Add card
+                </div>
+            </div>
+
+            <div class="class_5" style="padding: 5px;">
+                +Add another card
+            </div>
+
+            <div class="class_6" style="padding: 5px;">
+                <div id="div_2" style="height: 50px;">
+                    Enter list title
+                </div>
+
+                <input type="submit" name="add card" value="Add card" style="background-color:limegreen; border-radius:5px;margin-left: 15px;height: 30px;">   
+                <i class="glyphicon glyphicon-remove"></i>       
+            </div>
+        </div>
+    
+    </body>
+</html>
